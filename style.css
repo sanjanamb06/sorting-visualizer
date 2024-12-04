@@ -1,9 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", serif;
   font-size: large;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -24,7 +24,6 @@ nav .array-inputs {
   display: grid;
   -ms-grid-columns: 60% 40%;
       grid-template-columns: 60% 40%;
-  place-content: center;
   padding: 5% 0%;
 }
 
@@ -42,7 +41,7 @@ nav .array-inputs #a_generate {
   outline: none;
   color: white;
   padding: 4% 0% 0% 0%;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 nav .array-inputs #a_generate:hover {
@@ -63,14 +62,15 @@ nav .header_right .nav-heading {
   display: inline-block;
   font-size: xxx-large;
   padding: 3% 0%;
+  margin-left: 4%;
 }
 
 nav .header_right .algos {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (16.66667%);
-      grid-template-columns: repeat(5, 20.66667%);
-  place-content: center;
+      grid-template-columns: repeat(5, 18.66667%);
+  place-content: flex-start;
 }
 
 nav .header_right .algos button {
@@ -78,8 +78,8 @@ nav .header_right .algos button {
   border: none;
   color: white;
   outline: none;
-  padding: 2% ;
-  font-size: x-large;
+  padding: 2% 0%;
+  font-size: large;
 }
 
 nav .header_right .algos button:hover {

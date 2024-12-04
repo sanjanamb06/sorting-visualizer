@@ -8,7 +8,7 @@
 }
 
 nav {
-  background-color: #3b3a3a;
+  background-color: #021526;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -61,8 +61,10 @@ nav .header_right {
 nav .header_right .nav-heading {
   display: inline-block;
   font-size: xxx-large;
+  font-weight: 500;
   padding: 3% 0%;
   margin-left: 4%;
+  font-family: "Doto", sans-serif;
 }
 
 nav .header_right .algos {
@@ -80,11 +82,12 @@ nav .header_right .algos button {
   outline: none;
   padding: 2% 0%;
   font-size: large;
+  transition: 1s;
 }
 
 nav .header_right .algos button:hover {
-  background-color: rgb(94, 94, 164);
   cursor: pointer;
+  font-size: 22px;
 }
 
 nav .header_right .algos .butt_locked {
@@ -99,7 +102,7 @@ nav .header_right .algos .butt_locked:hover {
 
 nav .header_right .algos .butt_selected {
   background-color: white;
-  color: green;
+  color: black;
 }
 
 nav .header_right .algos .butt_selected:hover {
@@ -108,7 +111,6 @@ nav .header_right .algos .butt_selected:hover {
 }
 
 nav .header_right .algos .butt_unselected:hover {
-  background-color: blue;
   cursor: pointer;
 }
 
@@ -121,6 +123,9 @@ section {
 
 section .Complexity_Containers {
   margin-top: 20%;
+  border-radius: 5%;
+  color: #021526;
+
 }
 
 section .Complexity_Containers .Pair_Definitions {
@@ -129,19 +134,24 @@ section .Complexity_Containers .Pair_Definitions {
 
 section .Complexity_Containers .Pair_Definitions p {
   display: inline;
+  font-size: 20px;
 }
 
 section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
-  font-size: medium;
+  font-size: 20px;
   text-transform: none;
+  font-weight: bold;
 }
 
 section #Info_Cont1 {
   padding: 20% 10%;
+  background-color: #DDE6ED;
 }
 
 section #Info_Cont1 h3 {
-  text-decoration: underline;
+  font-size: 22px;
+  color: #021526;
+  border-radius: 5%;
 }
 
 section #array_container {
@@ -151,14 +161,16 @@ section #array_container {
   align-items: flex-end;
   width: 100%;
   height: 70vh;
+  background-color: #DDE6ED;
 }
 
 section #Info_Cont2 {
   padding: 20% 10%;
+  background-color: #DDE6ED;
 }
 
 section #Info_Cont2 h3 {
-  text-decoration: underline;
+  font-size: 22px;
 }
 
 .hide {
